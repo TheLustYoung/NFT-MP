@@ -158,7 +158,6 @@ img {
     font-size: 16px;
     line-height: 160%;
     color: #FFFFFF;
-
     margin-bottom: 38px;
 }
 
@@ -187,9 +186,9 @@ img {
 
 .btn-solana{
     padding: 10px 66px 10px 32px;
-    background-image: url("/img/arrowmin.png");
+    background-image: url("/img/arrowmin.svg");
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: center right 41px;
 }
 
 
@@ -242,7 +241,6 @@ img {
     position: absolute;
     right: 0;
     top: -277px;
-    z-index: -9999;
 }
 
 
@@ -252,3 +250,179 @@ img {
     background-position: left center;
     padding-left: 20px;
 }
+
+
+.music-work-title{
+    margin-bottom: 36px;
+    max-width: 684px;
+}
+
+.music-work-discr{
+    max-width: 606px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 160%;
+    margin-bottom: 270px;
+}
+
+.img-border-work{
+    position: absolute;
+    width: 485px;
+    height: 415px;
+    right: 80px;
+    top: 6px;
+
+    border: 1px solid white;
+    
+}
+
+.section-music-work{
+    position: relative;
+    left: 40px;
+    max-width: 1440px;
+    margin-bottom: 140px;
+}
+
+.main-img{
+    position: absolute;
+    max-width: 570px;
+    max-height: 384px;
+    right: 112px;
+    top: 121px;
+}
+
+.section-nft-marketplace{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 211px;
+}
+
+.nft-title-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.nft-marketplace-discr{
+    max-width: 608px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-bottom: 49px;
+}
+
+.nft-marketplace-list{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 575px;
+    margin-right: 154px;
+    gap: 96px;
+    list-style-type: none; 
+}
+
+
+.nft-marketplace-item{
+    position: relative;
+    max-width: 222px;
+    max-height: 270px;
+    border: 1px solid white;
+    width: 196px;
+    height: 246px;
+    z-index: 1;
+}
+
+.nft-marketplace-box{
+    position: absolute;
+    width: 193px;
+    height: 194px;
+    left: 28px;
+    top: -28px;
+}
+
+.nft-marketplace-img{
+    outline: 9px solid #0B0B0D;
+    margin-bottom: 12px;
+}
+
+.btn-nft-marketplace{
+    background-image: url("/img/arrowmin.svg");
+    background-repeat: no-repeat;
+    background-position: center right 41px;
+    padding: 10px 66px 10px 32px;
+}
+
+
+.card-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+
+.card-price{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+    background-image: url("/img/solana.svg");
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 23px;
+}
+
+.section-engage{
+    width: 1340px;
+    margin: 0 auto;
+}
+
+.engage-title{
+    margin-bottom: 80px;
+}
+
+.engage-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.engage-item{
+    max-width: 412px;
+    height: 100%;
+    list-style-type: none;
+}
+
+.engage-item:not(:last-child){
+    margin-right: 62px;
+}
+
+.number-post{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 160%;
+    color: #FFFFFF;
+
+    margin-bottom: 35px;
+}
+
+.engage-discr{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+
