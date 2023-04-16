@@ -89,6 +89,28 @@ img {
     backdrop-filter:blur(25px);
 }
 
+.header-sign{
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header-sign:hover{
+    background: linear-gradient(99.74deg, #06DBAC 5.23%, #BD00FF 92.7%);
+    border: none;
+}
+
+.media-cont{
+    display: flex;
+    align-items: center;
+}
+
 .backimg{
     position: absolute;
     z-index: -10;
