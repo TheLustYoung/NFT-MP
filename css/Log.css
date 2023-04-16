@@ -175,6 +175,11 @@ input::placeholder{
     cursor: pointer;
 }
 
+.btn-link{
+    width: 250px;
+    height: 54px;
+}
+
 .btn-signin{
     border: 1px solid white;
     padding: 15px 50px 15px 50px;
@@ -184,6 +189,7 @@ input::placeholder{
     color: white;
     width: 327px;
     height: 54px;
+    margin-bottom: 50px;
     
 }
 
@@ -199,3 +205,12 @@ input::placeholder{
     margin-bottom: 30px;
 }
 
+
+.btn-back{
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-family: 'Inter';   
+    color: white;
+    position: relative;
+}

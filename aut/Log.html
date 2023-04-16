@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/aut.css">
-    <title>NFT AUTIFICATION</title>
+    <link rel="stylesheet" href="../css/Log.css">
+    <title>NFT LOG IN</title>
 </head>
 <body>
     <div class="container">
@@ -29,8 +29,11 @@
                 <button class="btn btn-login" id="LogIn">
                     Log In
                 </button>
-                <button class="btn btn-signin" id="SignIn">
-                    Sign In
+                    <button class="btn btn-signin" id="SignIn" onclick="document.location='/aut/sign.html';return false">
+                        Sign In
+                </button>
+                <button class="btn btn-back" onclick="document.location='../index.html';return false"> 
+                    Back
                 </button>
             </div>
         </form>
