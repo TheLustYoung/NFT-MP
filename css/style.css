@@ -99,6 +99,7 @@ img {
     line-height: 19px;
     text-transform: uppercase;
     color: black;
+    cursor: pointer;
 }
 
 .header-sign:hover{

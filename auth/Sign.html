@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/sign.css">
+    <title>NFT SIGN IN</title>
+</head>
+<body>
+    <div class="container">
+        <img src="/img/backimg.png" alt="" class="backimg">
+        <img src="/img/backimg-two.svg" alt="" class="backimg-two">
+        <form action="" class="form" name="aut-box">
+            <div class="input-container">
+                <label for="aut-box" class="label-title">
+                    Регистрация
+                </label>
+                <label for="uemail" class="label-subtitle">Email</label>
+                <input type="text" name="uemail" id="UserEmail" placeholder="Your Email">
+                <label for="uname" class="label-subtitle">User Name</label>
+                <input type="text" name="uname" id="UserName" placeholder="User Name">
+                <label for="upass" class="label-subtitle">Your password</label>
+                <input type="password" name="upass" id="UserPass" placeholder="Password">
+                <label for="upassenter" class="label-subtitle">Your password enter</label>
+                <input type="password" name="upass" id="UserPassEnter" placeholder="Password">
+            </div>
+            <div class="btn-box">
+                    <button class="btn btn-signin" id="SignIn" onclick="document.location='/auth/sign.html';return false">
+                        Sign In
+                </button>
+                <button class="btn btn-back" onclick="document.location='Log.html';return false"> 
+                    Back to Log in
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
