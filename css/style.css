@@ -210,7 +210,7 @@ img {
 
 .btn-solana{
     padding: 10px 66px 10px 32px;
-    background-image: url("/img/arrowmin.svg");
+    background-image: url("../img/arrowmin.svg");
     background-repeat: no-repeat;
     background-position: center right 41px;
 }
@@ -286,7 +286,7 @@ img {
 
 
 .powered-title{
-    background-image: url("/img/solana.svg");
+    background-image: url("../img/solana.svg");
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 20px;
@@ -394,7 +394,7 @@ img {
 }
 
 .btn-nft-marketplace{
-    background-image: url("/img/arrowmin.svg");
+    background-image: url("../img/arrowmin.svg");
     background-repeat: no-repeat;
     background-position: center right 41px;
     padding: 10px 66px 10px 32px;
@@ -419,7 +419,7 @@ img {
     line-height: 19px;
     color: #FFFFFF;
 
-    background-image: url("/img/solana.svg");
+    background-image: url("../img/solana.svg");
     background-repeat: no-repeat;
     background-position: center left;
     padding-left: 23px;
@@ -605,7 +605,7 @@ img {
 }
 
 .play-now{
-    background-image: url("/img/arrowmiddle.svg");
+    background-image: url("../img/arrowmiddle.svg");
     background-color: inherit;
     background-repeat: no-repeat;
     background-position: center right 26px;
@@ -647,7 +647,7 @@ img {
 
 .btn-discr-link{
     padding: 10px 66px 10px 32px;
-    background-image: url("/img/arrowmin.svg");
+    background-image: url("../img/arrowmin.svg");
     background-repeat: no-repeat;
     background-position: center right 41px;
 }
@@ -708,7 +708,7 @@ img {
     line-height: 39px;
     color: #FFFFFF;
 
-    background-image: url("/img/arrowup.svg");
+    background-image: url("../img/arrowup.svg");
     background-repeat: no-repeat;
     background-position: center left;
     padding-left: 32px;
