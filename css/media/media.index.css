@@ -1,10 +1,274 @@
-@media screen and (min-width: 1200px) and (orientation: landscape){
+@media screen and (max-width: 1024px){
+    
+    .section-title{
+        font-size: 55px;
+        line-height: 65px;
+    }
+
+    .section-subtitle{
+        font-size: 45px;
+    }
+
+    .section-discr{
+        font-size: 13px;
+        max-width: 450px;
+    }
+
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
     .header{
         width: 100%;
+        margin-bottom: 100px;
     }
 
     .header .container{
         padding-left: 1em;
         padding-right: 1em;
+    }
+
+    .hero-img{
+        width: 85%;
+    }
+
+    .hero-title{
+        max-width: 500px;
+    }
+
+    .img-border-work{
+        width: 280px;
+        height: 215px;
+    }
+
+    .slider-slide{
+        font-size: 13px;
+        max-width: 250px;
+        background-image: none;
+    }
+
+    .main-img{
+        width: 420px;
+        top: 75px;
+    }
+    .section-music-work{
+        margin-bottom: 200px;
+    }
+
+    .section-nft-marketplace{
+        margin-bottom: 110px;
+    }
+
+    .nft-marketplace-list{
+        gap: 15px;
+        margin-right: 100px;
+    }
+
+    .nft-marketplace-item{
+        max-width: 150px;
+        max-height: 200px;
+    }
+
+    .nft-marketplace-box{
+        width: 140px;
+    }
+
+    .number-post{
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    .section-engage{
+        margin-bottom: 80px;
+    }
+
+    .nav{
+        max-width: 460px;
+    }
+
+    .nav-title{
+        font-size: 14px;
+    }
+
+    .nav-link{
+        padding: 7px 15px 7px 15px;
+        font-size: 12px;
+    }
+
+    .card-item:not(:nth-child(3n)){
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .card-item:not(:nth-child(2n)){
+        margin-right: 90px;
+        margin-bottom: 95px;
+    }
+
+    .card-item:nth-child(2n){
+        margin-bottom: 95px;
+    }
+
+    .card-item{
+        max-width: 350px;
+    }
+
+    .discover-card{
+        display: inline-block;
+        vertical-align: top;
+    }   
+
+    .footer-title{
+        font-size: 36px;
+    }
+
+    .footer-link{
+        font-size: 22px;
+        height: 38px;
+    }
+
+    .nav-item-footer:not(:last-child){
+        padding-right: 32px;
+    }
+
+    .back-link{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    .section-title{
+        font-size: 60px;
+        line-height: 80px;
+    }
+
+    .section-subtitle{
+        font-size: 45px;
+    }
+
+    .section-discr{
+        font-size: 13px;
+        max-width: 450px;
+    }
+
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .header{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .header .container{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .header-icon:not(:last-child){
+        margin-right: 20px;
+    }
+
+    .header-svg{
+        transform: scale(0.85);
+    }
+
+    .header-item:not(:last-child) {
+        margin-right: 27px;
+    }
+
+    .header-link{
+        font-size: 12px;
+    }
+
+    .hero-title{
+        max-width: 500px;
+    }
+
+    .img-border-work{
+        width: 380px;
+        height: 315px;
+    }
+
+    .slider-slide{
+        font-size: 13px;
+        max-width: 250px;
+        background-image: none;
+    }
+
+    .main-img{
+        width: 420px;
+        top: 75px;
+    }
+    .section-music-work{
+        margin-bottom: 200px;
+    }
+
+    .section-nft-marketplace{
+        margin-bottom: 110px;
+    }
+
+    .nft-marketplace-list{
+        gap: 60px;
+    }
+
+    .number-post{
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    .section-engage{
+        margin-bottom: 80px;
+    }
+
+    .nav{
+        max-width: 460px;
+    }
+
+    .nav-title{
+        font-size: 14px;
+    }
+
+    .nav-link{
+        padding: 7px 15px 7px 15px;
+        font-size: 12px;
+    }
+
+    .card-item:not(:nth-child(3n)){
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .card-item:not(:nth-child(2n)){
+        margin-right: 90px;
+        margin-bottom: 95px;
+    }
+
+    .card-item:nth-child(2n){
+        margin-bottom: 95px;
+    }
+
+    .discover-card{
+        display: inline-block;
+        vertical-align: top;
+    }   
+
+    .footer-title{
+        font-size: 36px;
+    }
+
+    .footer-link{
+        font-size: 22px;
+        height: 38px;
+    }
+
+    .nav-item-footer:not(:last-child){
+        padding-right: 32px;
+    }
+
+    .back-link{
+        font-size: 22px;
     }
 }

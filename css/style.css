@@ -68,6 +68,10 @@ img {
     margin: 0 auto;
 }
 
+.container{
+    width: 100%;
+}
+
 .btn{
     font-family: 'Inter';
     font-style: normal;
@@ -93,6 +97,11 @@ img {
     margin-bottom: 177px;
     z-index: 10;
     backdrop-filter:blur(25px);
+}
+
+.header-svg{
+    max-width: 123px;
+    max-height: 41px;
 }
 
 .header-sign{
@@ -127,7 +136,6 @@ img {
 }
 
 .header .container{
-    width: 100%;
     max-height: 75px;
     margin: 0 auto;
     display: flex;   
@@ -165,8 +173,7 @@ img {
 
 .box-title{
     z-index: 10;
-    width: 890px;
-    height: 174px;
+    max-width: 890px;
     color: #FFFFFF;
     margin-bottom: 28px;
 }
@@ -280,7 +287,6 @@ img {
 }
 
 .hero-img{
-    min-width: 50%;
     max-width: 100%;
 }
 
@@ -300,20 +306,26 @@ img {
     padding-left: 20px;
 }
 
+.text-container-main{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .music-work-title{
+    display: inline-block;
     margin-bottom: 36px;
     max-width: 684px;
 }
 
 .music-work-discr{
+    display: inline-block;
     max-width: 606px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 160%;
-    margin-bottom: 270px;
 }
 
 .img-border-work{
@@ -330,9 +342,9 @@ img {
 
 .section-music-work{
     position: relative;
-    left: 40px;
     margin-bottom: 140px;
     margin: 0 auto;
+    margin-bottom: 270px;
 }
 
 .main-img{
@@ -344,10 +356,13 @@ img {
 }
 
 .section-nft-marketplace{
+    margin-bottom: 211px;
+}
+
+.section-nft-marketplace .container{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    margin-bottom: 211px;
 }
 
 .nft-title-box{
@@ -430,10 +445,6 @@ img {
     background-repeat: no-repeat;
     background-position: center left;
     padding-left: 23px;
-}
-
-.section-engage .container{
-    width: 100%;
 }
 
 .engage-title{
@@ -656,9 +667,11 @@ img {
 }
 
 .footer{
-    width: 1360px;
+    max-width: 1360px;
     margin: 0 auto;
 }
+
+
 
 .footer-title{
     font-family: 'Inter';
