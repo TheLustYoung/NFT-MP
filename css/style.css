@@ -9,6 +9,7 @@ body{
     max-width: 100%;
     background-color: #0B0B0D;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 *,
@@ -62,6 +63,11 @@ img {
     color: #FFFFFF;
 }
 
+.section-main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .btn{
     font-family: 'Inter';
     font-style: normal;
@@ -80,7 +86,7 @@ img {
 .header{
     display: flex;
     position: relative;;
-    width: 100%;
+    max-width: 1440px;
     margin: 0 auto;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.1);
@@ -121,7 +127,7 @@ img {
 }
 
 .header .container{
-    width: 1340px;
+    width: 100%;
     max-height: 75px;
     margin: 0 auto;
     display: flex;   
@@ -267,18 +273,20 @@ img {
 /* hero */
 
 .section-hero{
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
     z-index: 1;
     position: relative;
 }
 
-.section-hero .container{
-    position: relative;
-    z-index: 10;
+.hero-img{
+    min-width: 50%;
+    max-width: 100%;
 }
 
-.hero-img{
+.img-container{
+    max-width: 100%;
+    z-index: -1;
     position: absolute;
     right: 0;
     top: -277px;
@@ -323,7 +331,6 @@ img {
 .section-music-work{
     position: relative;
     left: 40px;
-    max-width: 1440px;
     margin-bottom: 140px;
     margin: 0 auto;
 }
@@ -425,9 +432,8 @@ img {
     padding-left: 23px;
 }
 
-.section-engage{
-    width: 1340px;
-    margin: 0 auto;
+.section-engage .container{
+    width: 100%;
 }
 
 .engage-title{
@@ -475,12 +481,9 @@ img {
 
 .section-discover{
     margin-bottom: 96px;
+    width: 100%;
 }
 
-.section-discover .container{
-    width: 1360px;
-    margin: 0 auto;
-}
 
 
 .section-discover-header{
